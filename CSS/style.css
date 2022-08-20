@@ -1,0 +1,114 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("../images/desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container{
+    padding-top: 20px;
+}
+.container{
+    width: 350px;
+    height: 530px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding-bottom: 6%;
+    margin: auto;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+h1{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+}
+h2{
+    font-size: 17px;
+    color: hsl(223, 47%, 23%);
+}
+p{
+    font-size: 16px;
+    color:hsl(224, 23%, 55%)
+}
+.abt-info{
+    text-align: center;
+}
+.anual{
+    width: 260px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 8px 16px;
+    position: relative;
+    background-color: hsl(225, 100%, 98%);
+}
+.price-text{
+    /* float: left; */
+    font-size: 14px;
+    font-weight: 100;
+    color:hsl(224, 23%, 55%);
+    position: relative;
+    top: -13px;
+    
+}
+.icon-music{
+     width: 50px;
+     height: 50px;
+    padding-right: 15px;
+    margin-top: 10px;
+    float: left;
+}
+.change-text{
+    float: right;
+    position: absolute;
+    top: 8px;
+    left: 210px;
+}
+.change-link{
+    color: hsl(245, 75%, 52%);
+}
+button{
+    width: 280px;
+    height: 40px;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-top: 10px;
+    padding: 5px 16px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+}
+.btn-one{
+    margin-top: 20px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 3px 4px 4px 2px hsl(245, 75%, 52%);
+}
+.btn-two{
+    color: hsl(224, 23%, 55%);
+    background-color: transparent;
+    margin-top: 20px;
+}
+.attribution{
+    text-align: center;
+    margin-top: 20px;
+}
+/* @media screen and (max-width: 480px) {
+    .container{
+        padding-left: 0;
+        margin-left: 0;
+    }
+  main{
+        padding-right: 2%;
+    }
+    
+  } */
